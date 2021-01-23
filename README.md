@@ -16,6 +16,8 @@
 2. in frontend folder `npm install`, `npm start`
 3. Happy coding!
 
+____________________________________________
+
 YouTube Link - https://youtu.be/iYDEEdiLWKI
 
 This project shows how to build a typical _frontend backend_ architecture with .NET 5.0 and React. It has a corresponding video on [YouTube](https://youtu.be/iYDEEdiLWKI) where you can learn:
