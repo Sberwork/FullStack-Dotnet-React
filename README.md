@@ -15,7 +15,18 @@ This project shows how to build a typical _frontend backend_ architecture with .
 7. How to setup redux.
 8. How to create an E2E todo feature.
 
+# Quick run
 
+0. put data source accordingly in backend/api folder. In my case ` "ConnectionString": "Data Source=D:\\APITutorial\\fullstack-dotnet-react\\backend\\FS.Todo.Data\\todos.db"` 
+ * a. You may delete migrations folder, and then run 
+ Add first migration `dotnet ef migrations add InitialCreate`
+ * b. Update database `dotnet ef database update`
+ * c. check sqlite database by `Ctrl-Shift-P` in VS-code and hit `SQLITE: New query`
+  -- SQLite
+  `SELECT * from Todos`
+
+1. in backend/api folder `dotnet run`
+2. in frontend folder `npm install`, `npm start`
 ## Prerequisites:
 
 You need to have the following installed on your machine to follow along with the project:
